@@ -1,0 +1,8 @@
+<div class="container-fluid">
+  <main class="row">
+      <div class="col-md-6" *ngFor="let obras of proyecto">
+        <img src="{{ obras.imgUrl }}" alt="" class="img-fluid">
+        <figcaption class="caption">{{ obras.subtitulo }}</figcaption>
+      </div>
+  </main>
+</div>

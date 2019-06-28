@@ -1,0 +1,23 @@
+.col-md-6 {
+    padding-left: 0;
+    padding-right: 0;
+}
+.caption {
+    position: absolute;
+    top: 85%;
+    color: snow;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-align: right !important;
+    padding-right: 10px;
+    width: 100%;
+}
+.container-fluid {
+    margin-top: 15.5%;
+}
+
+@media (min-width: 992px) {
+    .container-fluid {
+        margin-top: 0 !important;
+    }
+}

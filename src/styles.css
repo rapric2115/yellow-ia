@@ -1,0 +1,62 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Raleway|Play&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Covered+By+Your+Grace|Raleway&display=swap');
+
+@font-face {
+    font-family: 'eurotechnic';
+    src: url('../src/assets/fonts/euro_technic_regular-webfont.woff2') format('woff2'),
+    url('../src/assets/fonts/euro_technic_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'futuraregular';
+    src: url('../src/assets/fonts/futura_regular-webfont.woff2') format('woff2'),
+    url('../src/assets/fonts/futura_regular-webfont.woff') format('woff');    
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'helveticaregular';
+    src: url('../src/assets/fonts/helvetica-webfont.woff2') format('woff2'),
+         url('../src/assets/fonts/helvetica-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {font-family: "Corbel";
+    src: url("//db.onlinewebfonts.com/t/29dc27977e417a98e56556776f41607c.eot");
+    src: url("//db.onlinewebfonts.com/t/29dc27977e417a98e56556776f41607c.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/29dc27977e417a98e56556776f41607c.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/29dc27977e417a98e56556776f41607c.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/29dc27977e417a98e56556776f41607c.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/29dc27977e417a98e56556776f41607c.svg#Corbel") format("svg");
+}
+
+
+:root {
+    --yellow: #f9c300;
+    --blur: rgba(10,18,42,.5);
+    --text-color: #515052;
+    --purple: #1c1f4c;
+    --aqua-light: #00848c;
+    --aqua: #037272;
+    --yellow-bright: #fccf17;
+    --gray: #535b5e;
+    --snow: #f3f3f3;
+    --raleway: 'Raleway', sans-serif;
+    --tPlay: 'Play', sans-serif;
+    --euro: 'eurotechnic';
+    --futura: 'futuraregular';
+    --rale: 'Raleway', sans-serif;
+    --grace: 'Covered By Your Grace', cursive;
+    --helvetica : 'helveticaregular';
+    --corbel: 'corbel';
+}
+
+
+
+html, body {
+   font-family: var(--helvetica);
+}

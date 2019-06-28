@@ -1,0 +1,42 @@
+.container-fluid {
+    margin-top: 4rem;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+ul {
+    list-style: none;
+    display: inline-flex;
+}
+.serv-scroll {
+    overflow: auto !important;
+    flex-wrap: nowrap !important;
+    margin-right: 0;
+    margin-left: 0;
+}
+.serv {
+    display: inline-block;
+    /* margin-bottom: -20%; */
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.serv-img {
+    width: 160px !important;
+}
+
+ul {
+    list-style: none;
+}
+
+@media (min-width: 992px) {
+    .serv-img {
+        width: 100% !important;
+        height: auto;
+    }
+    .historia {
+       margin-bottom: 5%;
+    }
+    main {
+        padding-top: 6% !important;
+    }
+}

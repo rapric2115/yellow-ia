@@ -1,0 +1,10 @@
+<div class="container-fluid">
+  <main class="row">
+      <div class="col-md-6" *ngFor="let obras of ProyL">
+        <a routerLink="/descripcion-proyectos" (click)="onSelected(obras)">
+          <img src="{{ obras.imgUrl }}" alt="{{obras.nombre}}" class="img-fluid">
+          <figcaption class="caption">{{ obras.subtitulo }}</figcaption>
+        </a>
+      </div>
+  </main>
+</div>

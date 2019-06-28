@@ -1,0 +1,146 @@
+{
+    "subTitle": {
+        "trans-section": "Engineer & Architects"
+    },
+    "slogan": {
+        "trans-section": "we make possible the projects of your life!"
+    },
+    "exp-yellow": {
+        "trans-section": "Experience"
+    },
+    "video": {
+        "trans-section": "Our trajectory tells the rhythm of our experience"
+    },
+    "parOne": {
+        "trans-section" : "We achieve a complete balance by encompassing structural design with architectural design, technological, innovative, creative and aesthetic ideas that allow us to give our works the sustainability and security that guarantee the functionality of our projects throughout their useful life."
+    },
+    "parTwo": {
+        "trans-section": "As an engineering and architecture company, our main objective is to provide our clients with creative, functional and technical support for the design and construction of any type of civil work they wish to undertake; both in the private sector and in the public sector. Providing advice for making the best decisions that fit the dreams and requirements."
+    },
+    "parThree": {
+        "trans-section" : "In Yellow-ia we have a multidisciplinary team of specialized professionals, of vast experience and technical training to carry out the design, execution and supervision of any type of civil works."
+    },
+    "parFour" : {
+        "trans-section": "We constantly reformulate our form and work environment, adapting to changing times with greater ease and integration."
+    },
+    "parFive": {
+        "trans-section": "Our motto 'We do it Possible' is the reflection of the spirit of our business culture, where we constantly overcome with creativity the challenges faced to fulfill our goals and develop a wide range of engineering and architecture works. Know more about our"
+    },
+    "parSix": {
+        "trans-section": "know more about our people"
+    },
+    "calidad": {
+        "trans-section": "quality"
+    },
+    "months": {
+        "trans-section": "Months"
+    },
+    "days" : {
+        "trans-section": "Days"
+    },
+    "hours": {
+        "trans-section": "Hours"
+    },
+    "hagamoslo" : {
+        "trans-section" : "Lets's make it"
+    },
+    "posible" : {
+        "trans-section" : "possible"
+    },
+    "pero" : {
+        "trans-section" : "but"
+    },
+    "juntos" : {
+        "trans-section": "together"
+    },
+    "frase": {
+        "trans-section": "We positively impact the lifestyle of our customers, the environment and the community that surrounds them."
+    },
+    "suscribirse" : {
+        "trans-section": "subscribe"
+    },
+    "btnEnviar" : {
+        "trans-section": "Send Form"
+    },
+    "mensaje": {
+        "trans-section": "Message"
+    },
+    "nombre": {
+        "trans-section": "Name"
+    },
+    "asunto": {
+        "trans-section": "subject"
+    },
+    "mision": {
+        "section" : "Develop with creativity, innnovation, functionality and planning, the design and execution of infrastructure projects and construction of civil works to meet the needs of our national and international clients."
+    },
+    "mission" : {
+        "section": "Mission"
+    },
+    "vision": {
+        "section": "Evolve as a leading company in the global engineering and architecture sector, focused on achieving projects with the highest quality standards and an optimal cost / time ratio that satisfies the needs of our clients, based on a solid and unified culture organizational."
+    },
+    "vission": {
+        "section": "Vision"
+    },
+    "vallores" : {
+        "section": "Values"
+    },
+    "trabajoEquipo" : {
+        "section" : "Team work"
+    },
+    "empoderamiento" : {
+        "section" : "Empowerment"
+    },
+    "compromiso": { 
+        "section": "Commitment"
+    },
+    "integridad": {
+        "section": "Integrity"
+    },
+    "confiabilidad": {
+        "section": "reliability"
+    },
+    "excelencia" : {
+        "section": " excellence"
+    },
+    "motivacion": {
+        "section": "Motivation"
+    },
+    "motivation" : {
+        "section": "We are committed to our experience, expertise and quality standards transcend the entire design and construction industry, both in the Dominican Republic, and in the rest of the world."
+    },
+    "politicasCalidad" : {
+        "section": "Quality Policies"
+    },
+    "politicalidad": {
+        "section": "Maintain a philosophy of continuous improvement of our processes, which ensures compliance with the expectations of customers in all services.",
+        "sectionOne" : "Comply with current national and international legislation applicable to our sector.",
+        "sectionTwo": "Promote in our employees a vocation for service with the efficiency and effectiveness required in order to provide a high quality processional service.",
+        "sectioThree": "Provide the technical and human resources necessary for the proper implementation and maintenance of our Quality Management System.",
+        "sectionFour": "Yellow Ingenieros & Arquitectos SRL, is a company committed to its customers in offering products and services with high standards of quality, safety and on-time delivery."
+    },
+    "politicasSeguridad" : {
+        "section": "Security Policies"
+    },
+    "politicaseguridad": {
+        "section": "Comply with the rules, procedures and current laws related to the Prevention of Occupational Risks.",
+        "sectionOne" : "Make permanent efforts to identify and manage the risks associated with each activity or project in which the company participates or executes directly.",
+        "sectionTwo": "Respond promptly, effectively and carefully to emergencies or accidents that result in their different operations.",
+        "sectioThree": "Provide occupational health promotion programs aimed at improving the welfare of their employees.",
+        "sectionFour": "Protect the integrity and health of workers and the preservation of the environment within a process of continuous improvement.",
+        "sectionFive": "Yellow Ingenieros & Arquitectos SRL, is a company committed to the safety and health of all its employees, with the conviction that work accidents and diseases can and should be avoided."
+    },
+    "historia":{
+        "heading": "About Yellow Engineers & Architects",
+        "parOne": "Yellow Ingenieros & Arquitectos SRL, founded in May 2011, dedicated to provide services in the area of ​​Civil Engineering. With its shareholders integrated by Esteban Hernandez as General Manager, Eng. Bienvenido Hernandez, Director of Engineering, Eng. Victor Hernandez, Construction Manager and Ing. Miguelina Beltre Pujols.",
+        "parTwo": "The foundation of Yellow Engineers & Architects is framed by the need of the engineering sector to have a company with knowledge, the highest concept of quality and responsibility.",
+        "parThree": "For 2015, the management was restructured and is currently under the direction of the three brothers, Esteban Hernandez General Manager, Bienvenido Hernandez Director of Engineering and Victor Hernandez Construction Manager.",
+        "parFour": "Currently, Yellow Engineers & Architects have implemented a quality management system in order to continuously improve their efficiency, guarantee customer satisfaction and comply with the requirements of the International Standard ISO 9001: 2015."
+    },
+    "seguridad" : {
+        "section": "security"
+    }
+
+    
+}

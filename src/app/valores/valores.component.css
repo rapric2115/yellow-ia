@@ -1,0 +1,126 @@
+.container-fluid {
+    padding-top: 4.2rem;
+    padding-left: 0;
+    padding-right: 0;
+}
+.bg-yellow {
+    background-color: var(--yellow);
+    margin-top: 0;
+    color: var(--purple); 
+    
+    padding: 1.25rem .625rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.bg-yellow p {
+    margin-bottom: -5px;
+}
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.parrafo {
+    width: 100%;
+    padding-top: 5%;
+}
+.hex {
+    -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    background-color: var(--yellow);
+}
+.hexagon {
+    position: relative;
+    width: 70px; 
+    height: 40.41px;
+    background-color: var(--yellow);
+    margin: 20.21px 0;
+    left: 32%;
+    top: 51%;
+  } 
+
+  .hexagon:before,
+  .hexagon:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+  }
+  
+  .hexagon:before {
+    bottom: 100%;
+    border-bottom: 20.21px solid var(--yellow);
+  }
+  
+  .hexagon:after {
+    top: 100%;
+    width: 0;
+    border-top: 20.21px solid var(--yellow);
+  }
+
+  figcaption {
+    color: snow;
+    position: relative;
+    top: 23%;
+    left: 18%;
+  }
+
+  .imgLogo {
+      display: none;
+  }
+
+  ul {
+      list-style: none;
+  }
+
+@media (min-width: 992px) {
+    .bg-yellow {
+        font-size: 1.5rem;
+    }
+    .parrafo {
+        padding-left: 25%;
+        text-align: right;
+        padding-top: 20%;
+    }
+    .hexagon {
+        position: relative;
+        width: 150px; 
+        height: 86.60px;
+        background-color:var(--yellow);
+        margin: 43.30px 0;
+      }
+      
+      .hexagon:before,
+      .hexagon:after {
+        content: "";
+        position: absolute;
+        width: 0;
+        border-left: 75px solid transparent;
+        border-right: 75px solid transparent;
+      }
+      
+      .hexagon:before {
+        bottom: 100%;
+        border-bottom: 43.30px solid var(--yellow);
+      }
+      
+      .hexagon:after {
+        top: 100%;
+        width: 0;
+        border-top: 43.30px solid var(--yellow);
+      }
+      figcaption {
+        top: 27%;
+        left: 20%;
+        font-size: 1.8rem;
+      }
+      .imgLogo {
+          display: block !important;
+        position: absolute;
+        top: 22%;
+        overflow: hidden;
+        left: -129%;
+        width: 58%;
+      }
+}

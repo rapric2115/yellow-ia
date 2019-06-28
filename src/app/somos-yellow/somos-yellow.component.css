@@ -1,0 +1,36 @@
+.col-md-7 {
+    padding-left: 0;
+    padding-right: 0;
+}
+.col-md-4 {
+    padding-top: 35px;
+}
+.video-container {
+    height: 99vh;
+}
+.main-content h3 {
+    color: var(--gray);
+}
+.main-content span {
+    color: var(--yellow);
+}
+
+@media (min-width: 992px) {
+    .container-fluid {
+        padding-left: 0;
+        padding-right: 0;
+        height: 90vh;
+        padding: 5% 0;
+    }
+    .main-content h3 {
+        font-size: 5rem;
+        padding-left: 10%;
+    }
+    .main-content span {
+        color: var(--yellow);
+    }
+    .col-md-8 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}

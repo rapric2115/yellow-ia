@@ -1,0 +1,17 @@
+<div class="container-fluid">
+  <main class="main">
+    <div class="grid row">
+      <figure class="effect-yellow04 col-md-3" *ngFor="let equipo of team">
+        <img src="{{ equipo.imgUrl }}" alt="{{ equipo.lastName }}" />
+        <figcaption>
+          <div>
+            
+              <h4>{{ equipo.name }} <span>{{ equipo.lastName }}</span></h4>
+              <p class="text-center position">{{ equipo.position }}</p>
+          
+          </div>
+        </figcaption>
+        </figure>
+      </div>
+  </main>
+</div>

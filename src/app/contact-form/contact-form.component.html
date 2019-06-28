@@ -1,0 +1,32 @@
+<form>
+  <div class="form-group">
+      <input type="text" class="form-control" 
+      id="name" placeholder="{{'nombre.trans-section' | translate }}">
+    </div>
+<!-- <div class="form-group">
+  <input type="email" class="form-control" 
+  id="exampleFormControlInput1" placeholder="name@example.com">
+</div> -->
+<div class="form-group">
+  <select class="form-control" id="exampleFormControlSelect1">
+    <option>{{'asunto.trans-section' | translate }}</option>
+    <option>2</option>
+    <option>3</option>
+    <option>4</option>
+    <option>5</option>
+  </select>
+</div>
+<div class="form-group">
+    <div class="form-group">
+        <input type="email" class="form-control" 
+        id="email" placeholder="name@mail.com">
+    </div>
+</div>
+<div class="form-group">
+  <textarea class="form-control" 
+  id="mensaje" rows="3" placeholder="{{'mensaje.trans-section' | translate }}"></textarea>
+</div>
+<button class="btn btn-lg btn-outline-yellow">
+  {{ 'btnEnviar.trans-section' | translate }}
+</button>
+</form>

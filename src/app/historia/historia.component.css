@@ -1,0 +1,54 @@
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+h3, p {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+main {
+    padding-top: 20%;
+}
+.carousel-caption {
+    font-size: 1em !important;
+    background-color: var(--blur) !important;
+    width: 100%;
+    position: relative;
+    top: -2.4rem;
+    left: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.serv-scroll {
+    overflow: auto !important;
+    flex-wrap: nowrap !important;
+    margin-right: 0;
+    margin-left: 0;
+}
+.serv {
+    display: inline-block;
+    /* margin-bottom: -20%; */
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.serv-img {
+    width: 360px !important;
+}
+
+ul {
+    list-style: none;
+}
+
+@media (min-width: 992px) {
+    .serv-img {
+        width: 100% !important;
+        height: auto;
+    }
+    .historia {
+       margin-bottom: 5%;
+    }
+    main {
+        padding-top: 6% !important;
+    }
+}

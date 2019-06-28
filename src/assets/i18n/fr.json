@@ -1,0 +1,143 @@
+{
+    "subTitle": {
+        "trans-section": "Ingénieurs et Architectes"
+    },
+    "slogan": {
+        "trans-section": "nous rendons possible les projets de votre vie!"
+    },
+    "exp-yellow": {
+        "trans-section" : "Expérience"
+    },
+    "video": {
+        "trans-section": "Notre trajectoire raconte le rythme de notre expérience"
+    },
+    "parOne": {
+        "trans-section" : "Nous réalisons un équilibre complet en englobant le design structurel avec le design architectural, les idées technologiques, innovantes, créatives et esthétiques qui nous permettent de donner à nos œuvres la durabilité et la sécurité qui garantissent la fonctionnalité de nos projets tout au long de leur vie utile."
+    },
+    "parTwo": {
+        "trans-section" : "En tant qu’entreprise d’ingénierie et d’architecture, notre objectif principal est de fournir à nos clients un soutien créatif, fonctionnel et technique pour la conception et la construction de tout type de travaux de génie civil qu’ils souhaitent entreprendre; à la fois dans le secteur privé et dans le secteur public. Fournir des conseils pour prendre les meilleures décisions qui correspondent aux rêves et aux exigences."
+    },
+    "parThree": {
+        "trans-section": "À Yellow-ia, nous avons une équipe multidisciplinaire de professionnels spécialisés, de vaste expérience et formation technique pour mener à bien la conception, l'exécution et la supervision de tout type de travaux de génie civil."
+    },
+    "parFour": {
+        "trans-section" : "Nous reformulons en permanence notre forme et notre environnement de travail, en nous adaptant aux temps nouveaux avec plus de facilité et d'intégration."
+    },
+    "parFive": {
+        "trans-section": "Notre devise 'Nous le faisons possible' est le reflet de l'esprit de notre culture d'entreprise, où nous relevons en permanence avec créativité les défis auxquels nous sommes confrontés pour atteindre nos objectifs et développer une large gamme d'ouvrages d'ingénierie et d'architecture."
+    },
+    "parSix": {
+        "trans-section": "en savoir plus sur notre peuple"
+    },
+    "calidad": {
+        "trans-section": "qualité"
+    },
+    "months": {
+        "trans-section": "Mois"
+    },
+    "days" : {
+        "trans-section": "Jours"
+    },
+    "hours": {
+        "trans-section": "Heures"
+    },
+    "hagamoslo" : {
+        "trans-section" : "Rendons"
+    },
+    "posible" : {
+        "trans-section" : "possible"
+    },
+    "pero" : {
+        "trans-section" : "mais"
+    },
+    "juntos" : {
+        "trans-section": "ensemble"
+    },
+    "frase": {
+        "trans-section": "Nous avons un impact positif sur le mode de vie de nos les clients, l'environnement et la communauté qui les entoure."
+    },
+    "suscribirse": {
+        "trans-section": "s'inscrire"
+    },
+    "btnEnviar" : {
+        "trans-section": "formulaire d'envoi"
+    },
+    "mensaje": {
+        "trans-section": "Message"
+    },
+    "nombre": {
+        "trans-section": "Nom"
+    },
+    "asunto": {
+        "trans-section": "sujet"
+    },
+    "mision" : {
+        "section" : "Développer avec créativité, innovation, fonctionnalité et planification, la conception et la réalisation de projets d'infrastructure et la construction d'ouvrages de génie civil pour répondre aux besoins de nos clients nationaux et internationaux."
+    },
+    "mission" : {
+        "section": "Mission"
+    },
+    "vision" : {
+        "section": "Devenir une société leader dans le secteur mondial de l’ingénierie et de l’architecture, axée sur la réalisation de projets répondant aux normes de qualité les plus strictes et respectant un ratio coût / temps optimal, répondant aux besoins de nos clients et reposant sur une culture solide et unifiée. organisationnel."
+    },
+    "vission": {
+        "section": "Vision"
+    },
+    "vallores" : {
+        "section": "Valeurs"
+    },
+    "trabajoEquipo" : {
+        "section" : "Travail d'équipe"
+    },
+    "empoderamiento" : {
+        "section" : "l'autonomisation"
+    },
+    "compromiso": { 
+        "section": "compromis"
+    },
+    "integridad": {
+        "section": "intégrité"
+    },
+    "confiabilidad": {
+        "section": "La fiabilitéex"
+    },
+    "excelencia" : {
+        "section": " excellence"
+    },
+    "motivacion": {
+        "section": "Motivation"
+    },
+    "motivation" : {
+        "section": "Nous nous engageons à ce que notre expérience, notre expertise et nos normes de qualité transcendent l’ensemble du secteur de la conception et de la construction, en République dominicaine et dans le reste du monde."
+    },
+    "politicasCalidad" : {
+        "section": "Politiques de Qualité"
+    },
+    "politicalidad": {
+        "section": "Maintenir une philosophie d'amélioration continue de nos processus, qui garantit le respect des attentes des clients pour tous les services.",
+        "sectionOne" : "Se conformer à la législation nationale et internationale en vigueur applicable à notre secteur.",
+        "sectionTwo": "Promouvoir chez nos employés une vocation de service avec l'efficacité et l'efficience requises pour fournir un service de haute qualité.",
+        "sectioThree": "Fournir les ressources techniques et humaines nécessaires à la mise en œuvre et à la maintenance de notre système de gestion de la qualité.",
+        "sectionFour": "Yellow Ingenieros & Arquitectos SRL, est une entreprise engagée envers ses clients en offrant des produits et des services avec des standards élevés de qualité, de sécurité et de respect des délais."
+    },
+    "politicasSeguridad" : {
+        "section": "politiques de sécurité"
+    },
+    "politicaseguridad": {
+        "section": "Se conformer aux règles, procédures et lois en vigueur relatives à la prévention des risques professionnels.",
+        "sectionOne" : "Faire des efforts permanents pour identifier et gérer les risques associés à chaque activité ou projet auquel l'entreprise participe ou exécute directement.",
+        "sectionTwo": "Réagissez promptement, efficacement et avec soin aux urgences ou aux accidents qui entraînent différentes opérations",
+        "sectioThree": "Protéger l'intégrité et la santé des travailleurs ainsi que la préservation de l'environnement dans le cadre d'un processus d'amélioration continue.",
+        "sectionFour": "Yellow Ingenieros & Arquitectos SRL, est une entreprise soucieuse de la sécurité et de la santé de tous ses employés, convaincue que les accidents du travail et les maladies peuvent et doivent être évités."
+    },
+    "historia":{
+        "heading": "À propos de Yellow Engineers & Architects",
+        "parOne": "Yellow Ingenieros & Arquitectos SRL, fondée en mai 2011, est spécialisée dans les services de génie civil. Avec ses actionnaires intégrés par Esteban Hernandez en tant que directeur général, l'ingénieur Bienvenido Hernandez, directeur de l'ingénierie, l'ingénieur Victor Hernandez, directeur de la construction et l'ingénieur Miguelina Beltre Pujols.",
+        "parTwo": "La fondation de Yellow Engineers & Architects s’inscrit dans la nécessité pour le secteur de l’ingénierie de disposer d’une société dotée de la connaissance, du concept le plus élevé en matière de qualité et de responsabilité.",
+        "parThree": "Pour 2015, la direction a été restructurée et est actuellement dirigée par les trois frères, Esteban Hernandez, directeur général, Bienvenido Hernandez, directeur de l'ingénierie et Victor Hernandez, directeur de la construction.",
+        "parFour": "À l'heure actuelle, Yellow Engineers & Architects a mis en place un système de gestion de la qualité afin d'améliorer constamment son efficacité, de garantir la satisfaction de ses clients et de se conformer aux exigences de la norme internationale ISO 9001: 2015."
+    },
+    "seguridad": {
+        "section": "sécurité"
+    }
+}

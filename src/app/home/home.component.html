@@ -1,0 +1,283 @@
+<div class="container-fluid bg-img">
+  <header class="wrapper">
+    <img src="../../assets/yellow-logo/Logo_Yellow-white.svg" 
+    alt="Logo Yellow Ingenieros & Arquitectos" class="img-fluid logo" id="logo">
+    <h1 class="text-center pt-5">Yellow-IA</h1>
+    <h2 class="text-center">{{ 'subTitle.trans-section' | translate }}</h2>
+    <span class="contacto">Contacto</span>
+    <span class="social">Social media</span>
+   <!-- <p class="base text-center">{{ 'slogan.trans-section' | translate }}</p> -->
+  </header>
+  <div class="vHeight">
+  <section class="servicios pt-3">
+    <div class="row">
+      <div class="col-md-4">
+        <h3 class="text-center">
+          {{'exp-yellow.trans-section' | translate }} <span>Yellow-ia</span>
+        </h3>
+      </div>
+      <div class="col-md-8">
+        <p>
+            {{ 'parOne.trans-section' | translate }}
+        </p>
+      </div>
+    </div>
+  </section>
+  <section class="container-fluid">
+    <div class="row serv-scroll">
+      <div class="col-md-6 serv" *ngFor="let s of servicios">
+         <div class="serv-img">
+           <img src="{{ s.url }}" alt="{{ s.title }}" class="img-fluid">
+            <h4 class="carousel-caption">{{ s.title }}</h4>
+         </div>
+      </div>
+    </div>   
+    <p class="mt-3 parrafo">
+      {{ 'parTwo.trans-section' | translate }}
+    </p> 
+  </section>
+</div>
+  <div class="bg-yellow">
+    <p class="text-center">
+       #hacemosposiblelosproyectosdetuvida <wbr> #somosyellow  #lohacemosposible
+    </p>
+  </div>
+  <div class="pt-4 video-container ">
+    <app-somos-yellow></app-somos-yellow>   
+  </div>
+  <section>
+    <app-mvv></app-mvv>
+  </section>
+  <!-- section of contacto -->
+  <section class="contact pt-5 container">
+    <div class="row">
+      <div class="col-md-4">
+        <p class="contact-sub_title">
+          <span>{{'hagamoslo.trans-section' | translate }}</span> {{'posible.trans-section' | translate }}... <br>
+           {{'pero.trans-section' | translate }} <span>{{'juntos.trans-section' | translate }}!</span>
+        </p>
+      </div>
+      <div class="col-md-4">
+        <app-contact-form></app-contact-form>
+      </div>
+      <div class="col-md-4">
+        <address class="pt-3">
+            <span>
+                Yellow {{ 'subTitle.trans-section' | translate }}, SRL <br>
+            </span>
+           Tel: 809 683 8400 <br>
+            info@yellow-ia.com <br>
+            Calle 5A #1, Esq. Juan Garcia Bonelli<br>
+            Ensanche Julieta Morales<br>
+            Santo Domingo, Rep. Dom.
+        </address>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3784.2477424607873!2d-69.95051468462087!3d18.47243407546472!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eaf89fbc2b493b3%3A0x547ca492d00891f5!2sYELLOW%2C+Ingenieros+%26+Arquitectos!5e0!3m2!1sen!2sdo!4v1559766299430!5m2!1sen!2sdo"
+             frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Yellow Section -->
+  <div class="bg-yellow">
+      <p class="text-center">
+        {{'frase.trans-section' | translate }}
+      </p>
+  </div>
+
+  <!-- Footer -->
+  <footer class="container">
+    <div class="row">
+      <div class="col-md-2 col-sm-6">
+        <ul>
+          <li>
+            <a class="link" 
+              data-toggle="collapse" 
+              href="#proyectos" 
+              role="button" aria-expanded="false"
+              aria-controls="collapseExample" (click)="rotate()" id="proyectos">
+            <b>Proyectos</b> <i class="plus">
+              <img src="../../assets/icon/plus.png" alt="plus" 
+              class="img-fluid i-plus" id="plus"
+               [@rotatedState]='state'>
+            </i>
+          </a>
+         </li>
+         <div class="collapse">
+            <li>Torres Habitaciones</li>
+            <li>Puentes</li>
+            <li>Obras Hidraulicas</li>
+            <li>Escuelas</li>
+            <li>Edificios Comerciales</li>
+            <li>Estaciones de Metro</li>
+            <li>Hoteles</li>
+         </div>
+      </ul>
+      </div>
+      <div class="col-md-2 col-sm-6">
+        <ul>
+          <li>
+              <a class="link" 
+              data-toggle="collapse" 
+              href="#somosyellow" 
+              role="button" aria-expanded="false"
+              aria-controls="collapseExample" (click)="r()">
+            <b>somosyellow</b> <i class="plus">
+              <img src="../../assets/icon/plus.png" alt="plus" 
+              class="img-fluid i-plus" id="plus"
+               [@stateRotation]='sta'>
+            </i>
+          </a>
+          </li>
+          <div id="somosyellow" class="collapse">
+              <li class="footer-link">
+                <a routerLink="/yellow/vision">
+                  {{ 'vission.section' | translate }}
+                </a>  
+              </li>
+              <li class="footer-link">
+                <a routerLink="/yellow/mision">
+                  {{'mission.section' | translate }}
+                </a>
+              </li>
+              <li class="footer-link">
+                <a routerLink="/yellow/valores">
+                  {{'vallores.section' | translate }}
+                </a>
+              </li>
+              <li class="footer-link">
+                <a routerLink="/yellow/motivacion">
+                  {{'motivacion.section' | translate }}
+                </a>
+              </li>
+              <li class="footer-link">
+                <a routerLink="/yellow/calidad">
+                  {{'politicasCalidad.section' | translate }}
+                </a>
+              </li>
+              <li class="footer-link">
+                <a routerLink="/yellow/seguridad">
+                  {{'politicasSeguridad.section' | translate }}
+                </a>
+              </li>
+          </div>
+        </ul>
+      </div>
+      <div class="col-md-2 col-sm-6">
+        <ul>
+          <li>
+              <a class="link" 
+              data-toggle="collapse" 
+              href="#genteyellow" 
+              role="button" aria-expanded="false"
+              aria-controls="collapseExample" (click)="o()">
+            <b>genteyellow</b> <i class="plus">
+              <img src="../../assets/icon/plus.png" alt="plus" 
+              class="img-fluid i-plus" id="plus"
+               [@stRot]='t'>
+            </i>
+            </a>
+          </li>
+          <div class="collapse" id="genteyellow">
+              <li>Equipo Yellow</li>
+              <li>Gerencia Yellow</li>
+              <li>Clientes Yellow</li>
+          </div>
+        </ul>
+      </div>
+      <div class="col-md-2 col-sm-6">
+        <ul>
+          <li>
+              <a class="link" 
+              data-toggle="collapse" 
+              href="#servicios" 
+              role="button" aria-expanded="false"
+              aria-controls="collapseExample" (click)="rotate()">
+            <b>servicios</b> <i class="plus">
+              <img src="../../assets/icon/plus.png" alt="plus" 
+              class="img-fluid i-plus" id="plus"
+               [@rotatedState]='state'>
+            </i>
+            </a>
+          </li>
+          <div class="collapse" id="servicios">
+              <li>Gerencia de Proyectos</li>
+              <li>Direccion Tecnica de Obras</li>
+              <li>Diseño & Analisis Estructural</li>
+              <li>Diseño Arquitectonico</li>
+              <li>Ejecusion de Obras</li>
+              <li>Estudio de vulnerabilidad y Retrofit</li>
+          </div>
+        </ul>
+      </div>
+      <div class="col-md-2 col-sm-6">
+        <ul>
+          <li>
+              <a class="link" 
+              data-toggle="collapse" 
+              href="#yellowPlus" 
+              role="button" aria-expanded="false"
+              aria-controls="collapseExample" (click)="rotate()">
+            <b>yellow+</b> <i class="plus">
+              <img src="../../assets/icon/plus.png" alt="plus" 
+              class="img-fluid i-plus" id="plus"
+               [@rotatedState]='state'>
+            </i>
+            </a>
+          </li>
+          <div class="collapse" id="yellowPlus">
+              <li>Yellow Educa</li>
+              <li>Compromiso Social</li>
+          </div>    
+              <li>
+                  <a class="link" 
+                  data-toggle="collapse" 
+                  href="#novedades" 
+                  role="button" aria-expanded="false"
+                  aria-controls="collapseExample" (click)="rotate()">
+                <b>novedades</b> <i class="plus">
+                  <img src="../../assets/icon/plus.png" alt="plus" 
+                  class="img-fluid i-plus" id="plus"
+                   [@rotatedState]='state'>
+                </i>
+                </a>
+              </li>
+              <div class="collapse" id="novedades">
+                  <li>Tecnologia Arquitectura</li>
+                  <li>Tecnologia Ingenieria</li>
+                  <li>Socio-economia Constructiva</li>
+              </div>
+              
+          
+        </ul>
+      </div>
+      <div class="col-md-2 col-sm-6">
+        <ul class="social">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+        <ul>
+          <li><b>siguenos</b> </li>
+          <li><b>#somosyellow</b></li>
+          <li><b>#lohacemosposible</b></li>
+        </ul>
+        <form class="subscribe">
+            <input type="email" class="form-control fooSubscribe" 
+            id="email" placeholder="name@mail.com">
+          <button class="btn btn-lg btn-outline-yellow mt-3">
+            {{'suscribirse.trans-section' | translate }}
+          </button>
+        </form>
+      </div>
+    </div>
+    <div class="copy">
+      <p>
+          copyright &copy; <span>{{ 'subTitle.trans-section' | translate }}</span>    Terminos Privacidad | Terminos Uso
+      </p>
+      <img src="../../assets/yellow-logo/Logo_Yellow ingenieros y arquitectos_logo-horizontal-transparent.png" alt="Logo Yellow Ingenieros & Arquitectos" class="img-fluid img-copy">
+    </div>
+  </footer>
+</div>
