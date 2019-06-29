@@ -123,7 +123,7 @@ main {
     animation-duration: 1s;
     z-index: 100;
     position: relative;
-    top: -538px;
+    top: -93%;
     background-color: #fff;
     width: 100vw;
     left: -15px;
@@ -136,6 +136,30 @@ main {
     padding-top: 5%;
     font-size: 1.5rem;
     text-align: right !important;
+}
+
+.valores {
+    -webkit-animation-name: fadeInLeft;
+    animation-name: fadeInLeft;
+    animation-duration: 1s;
+    z-index: 100;
+    position: relative;
+    top: -715px;
+    background-color: #fff;
+    width: 82.8vw;
+    left: 15.8%;
+    height: 56vh;
+}
+
+.valores p {
+    font-size: 1.5rem;
+    padding-top: 10%;
+    padding-left: 35%;
+    display: inline-flex;
+}
+
+.left {
+    padding: 0 40%;
 }
 
 @media (max-width: 575.98px) {

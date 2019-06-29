@@ -20,10 +20,8 @@ export class NavbarComponent implements OnInit {
 
     if(this.innerWidth < 500) {
       const open = document.getElementById("globe");
-      open.removeAttribute('fill');
-      const att = document.createAttribute('fill');
-      att.value = ('#000');
-      open.setAttributeNode(att);
+      open.hasAttribute('fill');
+      open.setAttribute('fill', "#fff");
     }
 
   }

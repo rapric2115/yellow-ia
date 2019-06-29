@@ -9,7 +9,8 @@
       <div class="col-md-2 col-sm-6">
         <img src="../../assets/equipo-Yellow/cumple-mich.jpg" alt="cumpleaño Michelle yellow" class="img-fluid op">
       </div>
-      <div class="col-md-2 col-xs-6 par" (click)="mMision()">
+      <div class="col-md-2 col-xs-6 par" (click)="mMision()" id="m"
+      data-toggle="modal" data-target="">
         <p class="text-center">            
         {{ 'mission.section' | translate }}
         </p>
@@ -27,7 +28,8 @@
         alt="equipo equipo-construccion" class="img-fluid">
       </div>   
 
-      <div class="col-md-2 col-xs-6 par" (click)="mVision()">
+      <div class="col-md-2 col-xs-6 par" (click)="mVision()"
+      data-toggle="modal" data-target="" id="v">
         <p class="text-center">
           {{'vission.section' | translate }}
         </p>
@@ -83,7 +85,7 @@
       <div class="col-md-2 col-xs-6 op">
         <img src="../../assets/equipo-Yellow/equipo-rh-finanzas.jpg" alt="" class="img-fluid">
       </div>
-      <div class="col-md-2 col-xs-6 par">
+      <div class="col-md-2 col-xs-6 par" (click)="valores()">
         <p class="text-center">
           {{'vallores.section' | translate }}
         </p>
@@ -112,10 +114,49 @@
       {{ 'mision.section' | translate }} 
     </p>
   </div>
-  <div class="mo-mv" id="valores">
+  
+  <div class="mo-mvv" id="valores">
     <p class="text-center">
-       
+       <span class="right">
+        {{'trabajoEquipo.section' | translate }} <br>
+        {{'empoderamiento.section' | translate}} <br>
+        {{'compromiso.section' | translate }}
+       </span>
+       <span class="left">
+        {{'integridad.section' | translate }} <br>
+        {{'confiabilidad.section' | translate }} <br>
+        {{'excelencia.section' | translate }}
+       </span>
     </p>
+  </div>
+
+  <!-- Modals Sections -->
+
+  <div class="modal fade" id="visionModal" tabindex="-1" role="dialog"
+   aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          {{'vision.section'| translate }}
+        </div>
+       <!-- <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div> -->
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="misionModal" tabindex="-1" 
+  role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          {{'mision.section'| translate }}
+        </div>
+       <!-- <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div> -->
+      </div>
+    </div>
   </div>
   
 </main>
