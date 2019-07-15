@@ -1,32 +1,32 @@
-<form>
+<form (ngSubmit)='contactForm(form.value)' #form="ngForm" id="f">
   <div class="form-group">
       <input type="text" class="form-control" 
-      id="name" placeholder="{{'nombre.trans-section' | translate }}">
+      id="name" placeholder="{{'nombre.trans-section' | translate }}" ngModel name="name">
     </div>
 <!-- <div class="form-group">
   <input type="email" class="form-control" 
   id="exampleFormControlInput1" placeholder="name@example.com">
 </div> -->
 <div class="form-group">
-  <select class="form-control" id="exampleFormControlSelect1">
+  <select class="form-control" id="exampleFormControlSelect1" ngModel name="asunto">
     <option>{{'asunto.trans-section' | translate }}</option>
-    <option>2</option>
-    <option>3</option>
-    <option>4</option>
+    <option>{{'contact.info' | translate }}</option>
+    <option>{{'contact.servicio' | translate }}</option>
+    <option>{{'contact.cotizacion' | translate }}</option>
     <option>5</option>
   </select>
 </div>
-<div class="form-group">
+<div class="form-group" >
     <div class="form-group">
         <input type="email" class="form-control" 
-        id="email" placeholder="name@mail.com">
+        id="email" placeholder="{{'contact.mail' | translate }}" ngModel name="email">
     </div>
 </div>
 <div class="form-group">
   <textarea class="form-control" 
-  id="mensaje" rows="3" placeholder="{{'mensaje.trans-section' | translate }}"></textarea>
+  id="mensaje" rows="3" placeholder="{{'mensaje.trans-section' | translate }}" name="mensaje" ngModel></textarea>
 </div>
-<button class="btn btn-lg btn-outline-yellow">
+<button class="btn btn-lg btn-outline-yellow" type="submit">
   {{ 'btnEnviar.trans-section' | translate }}
 </button>
 </form>

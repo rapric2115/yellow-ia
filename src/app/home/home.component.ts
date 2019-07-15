@@ -129,32 +129,32 @@ export class HomeComponent implements OnInit {
     {
       'id': 1,
       'title': 'Gerencia de Proyectos',
-      'url' : '../../assets/img-servicios/Escuela%20Espejo%20del%20Rosario%20Azua(1).jpg'
+      'url' : '../../assets/img-servicios/Escuela%20Espejo%20del%20Rosario%20Azua.webp'
     },
     {
       'id': 2,
       'title': 'Diseño Analisis Estructural',
-      'url' : '../../assets/img-servicios/puente%20Cacique(1).jpg'    
+      'url' : '../../assets/img-servicios/puente%20Cacique(1).webp'    
     },
     {
       'id': 3,
       'title': 'Diseño Arquitectonico',
-      'url' : '../../assets/img-servicios/Bellorizonte(1).jpg'
+      'url' : '../../assets/img-servicios/Bellorizonte.webp'
     },
     {
       'id': 4,
       'title': 'Direccion Tecnica de Obras',
-      'url' : '../../assets/img-servicios/puenteDeLa17.jpg'
+      'url' : '../../assets/img-servicios/puenteDeLa17.webp'
     },
     {
       'id': 5,
       'title': 'Ejecusion de Obras',
-      'url' : '../../assets/img-servicios/Fachada%20yellow%20sin%20fecha.jpg'
+      'url' : '../../assets/img-servicios/Fachada%20yellow%20sin%20fecha.webp'
     },
     {
       'id': 6,
       'title': 'Estudio Vulnerabilidad y Retrofit',
-      'url' : '../../assets/img-servicios/26071335.jpg'
+      'url' : '../../assets/img-servicios/26071335.webp'
     }
   ] 
 
@@ -167,10 +167,17 @@ export class HomeComponent implements OnInit {
     //Add 'implements OnInit' to the class.
     
       setTimeout(() => { const l = document.getElementById('logo'); l.classList.add('fadeIn') }, 0);
-
+      
 
       this.innerWidth = window.innerWidth;
       console.log(this.innerWidth);
+
+      if (this.innerWidth > 600) {
+        const open = document.getElementById('soYellow');
+        open.setAttribute('aria-expanded', 'true');
+        open.classList.remove('collapsed');
+        console.log(open);
+      }
 
      /* if(this.innerWidth > 500) {
         const img = document.getElementById('map');

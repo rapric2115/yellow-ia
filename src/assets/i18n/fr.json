@@ -32,14 +32,14 @@
     "calidad": {
         "trans-section": "qualité"
     },
-    "months": {
-        "trans-section": "Mois"
+    "proyectos": {
+        "translate": "des projects"
     },
-    "days" : {
-        "trans-section": "Jours"
+    "servicios" : {
+        "translate": "les services"
     },
-    "hours": {
-        "trans-section": "Heures"
+    "contacto": {
+        "translate": "contact"
     },
     "hagamoslo" : {
         "trans-section" : "Rendons"
@@ -139,5 +139,11 @@
     },
     "seguridad": {
         "section": "sécurité"
+    },
+    "contact": {
+        "info": "Information",
+        "cotizacion": "Citation",
+        "servicio": "Service",
+        "mail": "nom@mail.com"
     }
 }

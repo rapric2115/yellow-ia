@@ -5,6 +5,7 @@ import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -30,6 +31,7 @@ import { SocialMediaComponent } from './social-media/social-media.component';
 import { ProjectDetailsComponent } from './project-details/project-details.component';
 import { SomosYellowComponent } from './somos-yellow/somos-yellow.component';
 import { MvvComponent } from './mvv/mvv.component';
+import { MessageService } from './shared/services/message.service';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -60,11 +62,12 @@ export function HttpLoaderFactory(http: HttpClient) {
     MvvComponent
   ],
   imports: [
-    BrowserModule,
+  BrowserModule,
     AppRoutingModule,
-    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
+    ServiceWorkerModule.register('/ngsw-worker.js', { enabled: environment.production }),
     BrowserAnimationsModule,
     HttpClientModule,
+    FormsModule,
     TranslateModule.forRoot({
       loader: {
           provide: TranslateLoader,
@@ -74,7 +77,8 @@ export function HttpLoaderFactory(http: HttpClient) {
   })
   ],
   providers: [
-    {provide: LocationStrategy, useClass: HashLocationStrategy}
+    {provide: LocationStrategy, useClass: HashLocationStrategy},
+    MessageService
   ],
   bootstrap: [AppComponent]
 })

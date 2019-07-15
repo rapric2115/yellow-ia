@@ -29,7 +29,7 @@ main {
 .col-md-2 img:hover {
     filter: grayscale(50%);
 }
-.mo-mvv {
+.noVisible {
     display: none;
 }
 /* .show-mVision {
@@ -52,6 +52,10 @@ main {
 
 .h {
     height: 60vh !important;
+}
+
+.modal-dialog {
+    top: 20%;
 }
 
 @-webkit-keyframes fadeInLeft {
@@ -84,7 +88,7 @@ main {
     animation-duration: 1s;
     z-index: 100;
     position: relative;
-    top: -534px;
+    top: -33.375rem;
     left: 15%;
     width: 68%;
     left: 33%;
@@ -123,7 +127,7 @@ main {
     animation-duration: 1s;
     z-index: 100;
     position: relative;
-    top: -93%;
+    top: -97%;
     background-color: #fff;
     width: 100vw;
     left: -15px;
@@ -144,11 +148,11 @@ main {
     animation-duration: 1s;
     z-index: 100;
     position: relative;
-    top: -715px;
+    top: -44.6875rem;
     background-color: #fff;
     width: 82.8vw;
     left: 15.8%;
-    height: 56vh;
+    height: 55.5vh;
 }
 
 .valores p {
@@ -158,8 +162,78 @@ main {
     display: inline-flex;
 }
 
+.motivacion {
+    -webkit-animation-name: fadeInLeft;
+    animation-name: fadeInLeft;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    width: 82.5vw;
+    top: -33.4375rem;
+    position: relative;
+    background-color: #fff;
+    left: -15px;
+    height: 65vh;
+}
+.motivacion p {
+    width: 63%;
+    margin: auto;
+    padding-top: 13%;
+    font-size: 1.5rem;
+}
+
+.calidad {
+    -webkit-animation-name: fadeInLeft;
+    animation-name: fadeInLeft;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    position: relative;
+    top: -45.9375rem;
+    background-color: #fff;
+    width: 85.1%;
+    left: 16%;
+    height: 85vh;
+}
+.calidad h3 {
+    padding-left: 5%;
+    padding-top: 5%;
+}
+
+.calidad p {
+    width: 90%;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+
+.seguridad {
+    -webkit-animation-name: fadeInLeft;
+    animation-name: fadeInLeft;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    position: relative;
+    top: -44.6875rem;
+    background-color: #fff;
+    left: -15px;
+    width: 51%;
+    height: 75vh;
+}
+.seguridad h3 {
+    padding-top: 5%;
+    padding-left: 5%;
+}
+.seguridad p {
+    width: 90%;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+
 .left {
     padding: 0 40%;
+}
+.flex {
+    display: flex;
+}
+.flex .right {
+    text-align: right;
 }
 
 @media (max-width: 575.98px) {
@@ -173,5 +247,23 @@ main {
 @media (min-width: 992px) {
     .par {
         width: 90% !important;
+    }
+}
+
+@media (min-width: 2500px) {
+    .vision {
+        height: 101.5vh;
+        top: -44rem;
+    }
+    .h {
+        height: 100vh !important;
+    }
+    .show-mision {
+        top: -44.0625rem;
+        height: 101.5vh;
+    }
+    .valores {
+        height: 70vh;
+        width: 83.8vw;
     }
 }

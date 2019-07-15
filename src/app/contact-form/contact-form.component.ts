@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
+import { MessageService } from './../shared/services/message.service';
 
 @Component({
   selector: 'app-contact-form',
@@ -8,12 +9,19 @@ import { TranslateService } from '@ngx-translate/core';
 })
 export class ContactFormComponent implements OnInit {
 
-  constructor(private translate: TranslateService) {
+  constructor(private translate: TranslateService,
+    public _Message: MessageService) {
     translate.setDefaultLang('es');
    }
 
    switchLanguage(language:string) {
     this.translate.use(language);
+  }
+
+  contactForm(form) {
+    this._Message.sendMessage(form).subscribe( () => {
+      alert('Mensaje Enviado correctamente');
+    })
   }
 
   ngOnInit() {

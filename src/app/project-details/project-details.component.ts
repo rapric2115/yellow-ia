@@ -18,7 +18,6 @@ export class ProjectDetailsComponent implements OnInit {
     const x = this.commun.communication$.pipe(
       map( data => this.proyectos = data )
     );
-    console.log(x);
   }
 
   

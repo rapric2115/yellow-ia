@@ -17,63 +17,63 @@ export class TeamYellowComponent implements OnInit {
       'id': 1,
       'name': 'Bienvenido',
       'lastName': 'Hernandez',
-      'imgUrl': 'assets/equipo-Yellow/bienvenido-hernandez.jpg',
+      'imgUrl': 'assets/equipo-Yellow/bienvenido-hernandez.webp',
       'position': 'Gerente Ingenieria'
     },
     {
       'id': 2,
       'name': 'Esteban',
       'lastName': 'Hernandez',
-      'imgUrl': 'assets/equipo-Yellow/esteban-hernandez.jpg',
+      'imgUrl': 'assets/equipo-Yellow/esteban-hernandez.webp',
       'position': 'Director General'
     },
     {
       'id': 3,
       'name': 'Victor',
       'lastName': 'Hernandez',
-      'imgUrl': 'assets/equipo-Yellow/victor-hernandez.jpg',
+      'imgUrl': 'assets/equipo-Yellow/victor-hernandez.webp',
       'position': 'Gerente de Proyectos'
     },
     {
       'id': 4,
       'name': 'Sandy',
       'lastName': 'Cabrera',
-      'imgUrl': 'assets/equipo-Yellow/sandy-cabrera.jpg',
+      'imgUrl': 'assets/equipo-Yellow/sandy-cabrera.webp',
       'position': 'Enc. Contabilidad'
     },
     {
       'id': 5,
       'name': 'Michelle',
       'lastName': 'Sepulveda',
-      'imgUrl': 'assets/equipo-Yellow/michelle-sepulveda.jpg',
+      'imgUrl': 'assets/equipo-Yellow/michelle-sepulveda.webp',
       'position': 'Enc. RR.HH.'
     },
     {
       'id': 6,
       'name': 'Pamela',
       'lastName': 'Paulino',
-      'imgUrl': 'assets/equipo-Yellow/pamela-paulino.jpg',
+      'imgUrl': 'assets/equipo-Yellow/pamela-paulino.webp',
       'position' : 'Enc. Diseño e Imagen Corporativa'
     },
     {
       'id': 7,
       'name': 'Rafael',
       'lastName': 'Hernandez',
-      'imgUrl': 'assets/equipo-Yellow/rafael-hernandez.jpg',
+      'imgUrl': 'assets/equipo-Yellow/rafael-hernandez.webp',
       'position': 'Arquitecto / Enc. Diseño'
     },
     {
       'id': 8,
       'name': 'Eduardo',
       'lastName': 'Fernandez',
-      'imgUrl': 'assets/equipo-Yellow/eduardo-fernandez.jpg',
+      'imgUrl': 'assets/equipo-Yellow/eduardo-fernandez.webp',
       'position': 'Ing. Civil Estructuralista'
     },
     {
       'id': 9,
       'name': 'Juan Carlos',
       'lastName': 'Santos',
-      'imgUrl': 'assets/equipo-Yellow/juan-santos.jpg',
+      'imgUrl': 'assets/equipo-Yellow/juan-santos.webp',
       'position': 'Enc. Ventas Inmobiliarias'
     },
     {
