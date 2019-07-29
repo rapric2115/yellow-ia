@@ -1,17 +1,20 @@
 <div class="container-fluid bg-img">
-  <header class="wrapper scroll-effects">
-    <img src="../../assets/yellow-logo/Logo_Yellow-white.svg" 
-    alt="Logo Yellow Ingenieros & Arquitectos" class="img-fluid logo" id="logo">
-    <h1 class="text-center pt-5">Yellow-IA</h1>
-    <h2 class="text-center">{{ 'subTitle.trans-section' | translate }}</h2>
-    <span class="contacto">Contacto</span>
-    <span class="social">
-        <app-social-media id="media-social"></app-social-media>
-    </span>
-   <!-- <p class="base text-center">{{ 'slogan.trans-section' | translate }}</p> -->
-  </header>
-  <div class="vHeight scroll-effects">
-  <section class="servicios pt-3">
+  <section>
+      <header class="wrapper scroll-effects">
+          <img src="../../assets/yellow-logo/Logo_Yellow-white.svg" 
+          alt="Logo Yellow Ingenieros & Arquitectos" class="img-fluid logo" id="logo">
+          <h1 class="text-center pt-5">Yellow-IA</h1>
+          <h2 class="text-center">{{ 'subTitle.trans-section' | translate }}</h2>
+         
+          <!-- <span class="social">
+              <app-social-media id="media-social"></app-social-media>
+          </span> -->
+         <!-- <p class="base text-center">{{ 'slogan.trans-section' | translate }}</p> -->
+        </header>
+  </section>
+  
+  <section class="vHeight scroll-effects">
+  <div class="servicios pt-3">
     <div class="row">
       <div class="col-md-4">
         <h3 class="text-center">
@@ -24,8 +27,8 @@
         </p>
       </div>
     </div>
-  </section>
-  <section class="container-fluid">
+  </div>
+  <div class="container-fluid">
     <div class="row serv-scroll">
       <div class="col-md-6 serv" *ngFor="let s of servicios">
          <div class="serv-img">
@@ -37,17 +40,18 @@
     <p class="mt-3 parrafo">
       {{ 'parTwo.trans-section' | translate }}
     </p> 
-  </section>
-</div>
+  </div>
+</section>
+<section class="pt-4 video-container scroll-effects">
   <div class="bg-yellow">
     <p class="text-center">
        #hacemosposiblelosproyectosdetuvida <wbr> #somosyellow  #lohacemosposible
     </p>
   </div>
-  <section class="pt-4 video-container  scroll-effects">
+ 
     <app-somos-yellow></app-somos-yellow>   
   </section>
-  <section class="scroll-effects">
+  <section class="mmv">
     <app-mvv></app-mvv>
   </section>
   <!-- section of contacto -->
@@ -89,194 +93,195 @@
   </div>
 
   <!-- Footer -->
-  <footer class="container">
-    <div class="row">
-      <div class="col-md-2 col-sm-6">
-        <ul>
-          <li>
-            <a class="link" 
-              data-toggle="collapse" 
-              href="#proyectos" 
-              role="button" aria-expanded="false"
-              aria-controls="collapseExample" (click)="rotate()" id="proyectos">
-            <b>Proyectos</b> <i class="plus">
-              <img src="../../assets/icon/plus.png" alt="plus" 
-              class="img-fluid i-plus" id="plus"
-               [@rotatedState]='state'>
-            </i>
-          </a>
-         </li>
-         <div class="collapse">
-            <li>Torres Habitaciones</li>
-            <li>Puentes</li>
-            <li>Obras Hidraulicas</li>
-            <li>Escuelas</li>
-            <li>Edificios Comerciales</li>
-            <li>Estaciones de Metro</li>
-            <li>Hoteles</li>
-         </div>
-      </ul>
-      </div>
-      <div class="col-md-2 col-sm-6">
-        <ul>
-          <li>
-              <a class="link" 
-              data-toggle="collapse" 
-              href="#somosyellow" 
-              role="button" aria-expanded="false"
-              aria-controls="collapseExample" (click)="r()" id="soYellow">
-            <b>somosyellow</b> <i class="plus">
-              <img src="../../assets/icon/plus.png" alt="plus" 
-              class="img-fluid i-plus" id="plus"
-               [@stateRotation]='sta'>
-            </i>
-          </a>
-          </li>
-          <div id="somosyellow" class="collapse">
-              <li class="footer-link">
-                <a routerLink="/yellow/vision">
-                  {{ 'vission.section' | translate }}
-                </a>  
-              </li>
-              <li class="footer-link">
-                <a routerLink="/yellow/mision">
-                  {{'mission.section' | translate }}
-                </a>
-              </li>
-              <li class="footer-link">
-                <a routerLink="/yellow/valores">
-                  {{'vallores.section' | translate }}
-                </a>
-              </li>
-              <li class="footer-link">
-                <a routerLink="/yellow/motivacion">
-                  {{'motivacion.section' | translate }}
-                </a>
-              </li>
-              <li class="footer-link">
-                <a routerLink="/yellow/calidad">
-                  {{'politicasCalidad.section' | translate }}
-                </a>
-              </li>
-              <li class="footer-link">
-                <a routerLink="/yellow/seguridad">
-                  {{'politicasSeguridad.section' | translate }}
-                </a>
-              </li>
-          </div>
-        </ul>
-      </div>
-      <div class="col-md-2 col-sm-6">
-        <ul>
-          <li>
-              <a class="link" 
-              data-toggle="collapse" 
-              href="#genteyellow" 
-              role="button" aria-expanded="false"
-              aria-controls="collapseExample" (click)="o()">
-            <b>genteyellow</b> <i class="plus">
-              <img src="../../assets/icon/plus.png" alt="plus" 
-              class="img-fluid i-plus" id="plus"
-               [@stRot]='t'>
-            </i>
-            </a>
-          </li>
-          <div class="collapse" id="genteyellow">
-              <li>Equipo Yellow</li>
-              <li>Gerencia Yellow</li>
-              <li>Clientes Yellow</li>
-          </div>
-        </ul>
-      </div>
-      <div class="col-md-2 col-sm-6">
-        <ul>
-          <li>
-              <a class="link" 
-              data-toggle="collapse" 
-              href="#servicios" 
-              role="button" aria-expanded="false"
-              aria-controls="collapseExample" (click)="rotate()">
-            <b>servicios</b> <i class="plus">
-              <img src="../../assets/icon/plus.png" alt="plus" 
-              class="img-fluid i-plus" id="plus"
-               [@rotatedState]='state'>
-            </i>
-            </a>
-          </li>
-          <div class="collapse" id="servicios">
-              <li>Gerencia de Proyectos</li>
-              <li>Direccion Tecnica de Obras</li>
-              <li>Diseño & Analisis Estructural</li>
-              <li>Diseño Arquitectonico</li>
-              <li>Ejecusion de Obras</li>
-              <li>Estudio de vulnerabilidad y Retrofit</li>
-          </div>
-        </ul>
-      </div>
-      <div class="col-md-2 col-sm-6">
-        <ul>
-          <li>
-              <a class="link" 
-              data-toggle="collapse" 
-              href="#yellowPlus" 
-              role="button" aria-expanded="false"
-              aria-controls="collapseExample" (click)="rotate()">
-            <b>yellow+</b> <i class="plus">
-              <img src="../../assets/icon/plus.png" alt="plus" 
-              class="img-fluid i-plus" id="plus"
-               [@rotatedState]='state'>
-            </i>
-            </a>
-          </li>
-          <div class="collapse" id="yellowPlus">
-              <li>Yellow Educa</li>
-              <li>Compromiso Social</li>
-          </div>    
-              <li>
+  <section>
+      <footer class="container">
+          <div class="row">
+            <div class="col-md-2 col-sm-6">
+              <ul>
+                <li>
                   <a class="link" 
-                  data-toggle="collapse" 
-                  href="#novedades" 
-                  role="button" aria-expanded="false"
-                  aria-controls="collapseExample" (click)="rotate()">
-                <b>novedades</b> <i class="plus">
-                  <img src="../../assets/icon/plus.png" alt="plus" 
-                  class="img-fluid i-plus" id="plus"
-                   [@rotatedState]='state'>
-                </i>
+                    data-toggle="collapse" 
+                    href="#proyectos" 
+                    role="button" aria-expanded="false"
+                    aria-controls="collapseExample" (click)="rotate()" id="proyectos">
+                  <b>Proyectos</b> <i class="plus">
+                    <img src="../../assets/icon/plus.png" alt="plus" 
+                    class="img-fluid i-plus" id="plus"
+                     [@rotatedState]='state'>
+                  </i>
                 </a>
-              </li>
-              <div class="collapse" id="novedades">
-                  <li>Tecnologia Arquitectura</li>
-                  <li>Tecnologia Ingenieria</li>
-                  <li>Socio-economia Constructiva</li>
+               </li>
+               <div class="collapse">
+                  <li>Torres Habitaciones</li>
+                  <li>Puentes</li>
+                  <li>Obras Hidraulicas</li>
+                  <li>Escuelas</li>
+                  <li>Edificios Comerciales</li>
+                  <li>Estaciones de Metro</li>
+                  <li>Hoteles</li>
+               </div>
+            </ul>
+            </div>
+            <div class="col-md-2 col-sm-6">
+              <ul>
+                <li>
+                    <a class="link" 
+                    data-toggle="collapse" 
+                    href="#somosyellow" 
+                    role="button" aria-expanded="false"
+                    aria-controls="collapseExample" (click)="r()" id="soYellow">
+                  <b>somosyellow</b> <i class="plus">
+                    <img src="../../assets/icon/plus.png" alt="plus" 
+                    class="img-fluid i-plus" id="plus"
+                     [@stateRotation]='sta'>
+                  </i>
+                </a>
+                </li>
+                <div id="somosyellow" class="collapse">
+                    <li class="footer-link">
+                      <a routerLink="/yellow/vision">
+                        {{ 'vission.section' | translate }}
+                      </a>  
+                    </li>
+                    <li class="footer-link">
+                      <a routerLink="/yellow/mision">
+                        {{'mission.section' | translate }}
+                      </a>
+                    </li>
+                    <li class="footer-link">
+                      <a routerLink="/yellow/valores">
+                        {{'vallores.section' | translate }}
+                      </a>
+                    </li>
+                    <li class="footer-link">
+                      <a routerLink="/yellow/motivacion">
+                        {{'motivacion.section' | translate }}
+                      </a>
+                    </li>
+                    <li class="footer-link">
+                      <a routerLink="/yellow/calidad">
+                        {{'politicasCalidad.section' | translate }}
+                      </a>
+                    </li>
+                    <li class="footer-link">
+                      <a routerLink="/yellow/seguridad">
+                        {{'politicasSeguridad.section' | translate }}
+                      </a>
+                    </li>
+                </div>
+              </ul>
+            </div>
+            <div class="col-md-2 col-sm-6">
+              <ul>
+                <li>
+                    <a class="link" 
+                    data-toggle="collapse" 
+                    href="#genteyellow" 
+                    role="button" aria-expanded="false"
+                    aria-controls="collapseExample" (click)="o()">
+                  <b>genteyellow</b> <i class="plus">
+                    <img src="../../assets/icon/plus.png" alt="plus" 
+                    class="img-fluid i-plus" id="plus"
+                     [@stRot]='t'>
+                  </i>
+                  </a>
+                </li>
+                <div class="collapse" id="genteyellow">
+                    <li>Equipo Yellow</li>
+                    <li>Gerencia Yellow</li>
+                    <li>Clientes Yellow</li>
+                </div>
+              </ul>
+            </div>
+            <div class="col-md-2 col-sm-6">
+              <ul>
+                <li>
+                    <a class="link" 
+                    data-toggle="collapse" 
+                    href="#servicios" 
+                    role="button" aria-expanded="false"
+                    aria-controls="collapseExample" (click)="rotate()">
+                  <b>servicios</b> <i class="plus">
+                    <img src="../../assets/icon/plus.png" alt="plus" 
+                    class="img-fluid i-plus" id="plus"
+                     [@rotatedState]='state'>
+                  </i>
+                  </a>
+                </li>
+                <div class="collapse" id="servicios">
+                    <li>Gerencia de Proyectos</li>
+                    <li>Direccion Tecnica de Obras</li>
+                    <li>Diseño & Analisis Estructural</li>
+                    <li>Diseño Arquitectonico</li>
+                    <li>Ejecusion de Obras</li>
+                    <li>Estudio de vulnerabilidad y Retrofit</li>
+                </div>
+              </ul>
+            </div>
+            <div class="col-md-2 col-sm-6">
+              <ul>
+                <li>
+                    <a class="link" 
+                    data-toggle="collapse" 
+                    href="#yellowPlus" 
+                    role="button" aria-expanded="false"
+                    aria-controls="collapseExample" (click)="rotate()">
+                  <b>yellow+</b> <i class="plus">
+                    <img src="../../assets/icon/plus.png" alt="plus" 
+                    class="img-fluid i-plus" id="plus"
+                     [@rotatedState]='state'>
+                  </i>
+                  </a>
+                </li>
+                <div class="collapse" id="yellowPlus">
+                    <li>Yellow Educa</li>
+                    <li>Compromiso Social</li>
+                </div>    
+                    <li>
+                        <a class="link" 
+                        data-toggle="collapse" 
+                        href="#novedades" 
+                        role="button" aria-expanded="false"
+                        aria-controls="collapseExample" (click)="rotate()">
+                      <b>novedades</b> <i class="plus">
+                        <img src="../../assets/icon/plus.png" alt="plus" 
+                        class="img-fluid i-plus" id="plus"
+                         [@rotatedState]='state'>
+                      </i>
+                      </a>
+                    </li>
+                    <div class="collapse" id="novedades">
+                        <li>Tecnologia Arquitectura</li>
+                        <li>Tecnologia Ingenieria</li>
+                        <li>Socio-economia Constructiva</li>
+                    </div>      
+              </ul>
+            </div>
+            <div class="col-md-2 col-sm-6">
+              <div class="socialFooter">
+                  <app-social-media></app-social-media>
               </div>
-              
-          
-        </ul>
-      </div>
-      <div class="col-md-2 col-sm-6">
-        <div class="socialFooter">
-            <app-social-media></app-social-media>
-        </div>
-        <ul>
-          <li></li>
-          <li><b>#somosyellow</b></li>
-          <li><b>#lohacemosposible</b></li>
-        </ul>
-        <form class="subscribe">
-            <input type="email" class="form-control fooSubscribe" 
-            id="email" placeholder="name@mail.com">
-          <button class="btn btn-lg btn-outline-yellow mt-3">
-            {{'suscribirse.trans-section' | translate }}
-          </button>
-        </form>
-      </div>
-    </div>
-    <div class="copy">
-      <p>
-          copyright &copy; <span>{{ 'subTitle.trans-section' | translate }}</span>    Terminos Privacidad | Terminos Uso
-      </p>
-      <img src="../../assets/yellow-logo/Logo_Yellow ingenieros y arquitectos_logo-horizontal-transparent.webp" alt="Logo Yellow Ingenieros & Arquitectos" class="img-fluid img-copy">
-    </div>
-  </footer>
+              <ul>
+                <li></li>
+                <li><b>#somosyellow</b></li>
+                <li><b>#lohacemosposible</b></li>
+              </ul>
+              <form class="subscribe">
+                  <input type="email" class="form-control fooSubscribe" 
+                  id="email" placeholder="name@mail.com">
+                <button class="btn btn-lg btn-outline-yellow mt-3">
+                  {{'suscribirse.trans-section' | translate }}
+                </button>
+              </form>
+            </div>
+          </div>
+          <div class="copy">
+            <p>
+                copyright &copy; <span>{{ 'subTitle.trans-section' | translate }}</span>    Terminos Privacidad | Terminos Uso
+            </p>
+            <img src="../../assets/yellow-logo/Logo_Yellow ingenieros y arquitectos_logo-horizontal-transparent.webp" alt="Logo Yellow Ingenieros & Arquitectos" class="img-fluid img-copy">
+          </div>
+        </footer>
+  </section>
+ 
 </div>

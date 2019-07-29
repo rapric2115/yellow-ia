@@ -49,7 +49,7 @@ h2 {
     text-transform: uppercase;
     width: 100%;
     font-size: .8rem;  
-}
+} 
 
 .contacto {
     position: fixed;
@@ -68,7 +68,9 @@ h2 {
     text-align: center;
     padding-right: 5%;
 }
-
+.mmv {
+    padding-top: 15px;
+}
 .servicios {
     padding-left: 15px;
     padding-right: 15px;
@@ -412,6 +414,7 @@ address {
 
     .vHeight {
         height: 80vh !important;
+        padding-top: 4%;
     }
 
     h1 {
@@ -482,8 +485,6 @@ address {
     }
     .video-container {
         max-width: 100% !important;
-        padding-right: 15px;
-        padding-left: 15px;
         margin-right: auto;
         margin-left: auto;
     }
@@ -493,6 +494,7 @@ address {
     .map {
         width: 90%;
     }
+    
 
     .time {
         padding-inline-start: 5px !important;
