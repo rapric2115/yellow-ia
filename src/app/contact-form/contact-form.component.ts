@@ -11,7 +11,9 @@ export class ContactFormComponent implements OnInit {
 
   constructor(private translate: TranslateService,
     public _Message: MessageService) {
-    translate.setDefaultLang('es');
+      
+    let userLang = navigator.language;   
+    translate.setDefaultLang(userLang);
    }
 
    switchLanguage(language:string) {

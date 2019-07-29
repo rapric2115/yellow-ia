@@ -1,7 +1,7 @@
 <main class="container-fluid" id="contF">
   <div class="row">
       <div class="col-md-2 col-xs-6">
-        <img src="../../assets/equipo-Yellow/equipo-yellow.webp" alt="equipo Yellow Ingenieros & Arquitectos" class="img-fluid">
+        <img src="../../assets/equipo-Yellow/equipo-yellow.webp" alt="equipo Yellow Ingenieros & Arquitectos" class="img-fluid hColorNormal">
       </div>
       <div class="col-md-2 col-sm-6">
         <img src="../../assets/equipo-Yellow/equipo-dic.webp" alt="equipo departamento Imagen Corporativa" class="img-fluid op">
@@ -10,10 +10,11 @@
         <img src="../../assets/equipo-Yellow/cumple-mich.webp" alt="cumpleaño Michelle yellow" class="img-fluid op">
       </div>
       <div class="col-md-2 col-xs-6 par" (click)="mMision()" id="m"
-      data-toggle="modal" data-target="">
+      data-toggle="modal" data-target="" (mouseenter)="clickme()" (mouseleave)="click()">
         <p class="text-center">            
         {{ 'mission.section' | translate }}
         </p>
+        <p class="d-none" id="clickme"></p>
       </div>
       <div class="col-md-2 col-xs-6">
         <img src="../../assets/equipo-Yellow/esteban-hernandez-peq.webp" 
@@ -29,10 +30,11 @@
       </div>   
 
       <div class="col-md-2 col-xs-6 par" (click)="mVision()"
-      data-toggle="modal" data-target="" id="v">
+      data-toggle="modal" data-target="" id="v" (mouseenter)="visionM()" (mouseleave)="vision()">
         <p class="text-center">
           {{'vission.section' | translate }}
         </p>
+        <p class="d-none" id="visionM"></p>
       </div>
 
       <div class="col-md-2 col-xs-6">
@@ -64,35 +66,39 @@
         alt="cumpleaños leo" class="img-fluid">
       </div>
       <div class="col-md-2 col-xs-6 par" (click)="seguridad()"
-      data-toggle="modal" data-target="" id="se">
+      data-toggle="modal" data-target="" id="se" (mouseenter)="seguridadM()" (mouseleave)="segu()">
         <p class="text-center">
           {{'seguridad.section' | translate }}
         </p>
+        <p class="d-none" id="seguridadM"></p>
       </div>
       <div class="col-md-2 col-xs-6 op">
         <img src="../../assets/equipo-Yellow/yellow-funniest.webp" 
         alt="yellow Funniest moment" class="img-fluid">
       </div>
       <div class="col-md-2 col-xs-6 par" (click)="motivacion()"
-      data-toggle="modal" data-target="" id="moti">
+      data-toggle="modal" data-target="" id="moti" (mouseenter)="motivacionM()" (mouseleave)="moti()">
         <p class="text-center">
           {{'motivacion.section' | translate }}
         </p>
+         <p class="d-none" id="motivacionM"></p>
       </div>
       <div class="col-md-2 col-xs-6 par"(click)="calidad()"
-      id="ca" data-toggle="modal" data-target="">
+      id="ca" data-toggle="modal" data-target="" (mouseenter)="calidadM()" (mouseleave)="cal()">
         <p class="text-center">
           {{ 'calidad.trans-section' | translate }}
         </p>
+         <p class="d-none" id="calidadM"></p>
       </div>
       <div class="col-md-2 col-xs-6 op">
         <img src="../../assets/equipo-Yellow/equipo-rh-finanzas.webp" alt="" class="img-fluid">
       </div>
       <div class="col-md-2 col-xs-6 par" (click)="valores()"
-      id="va" data-toggle="modal" data-target="">
+      id="va" data-toggle="modal" data-target="" (mouseenter)="valoresM()" (mouseleave)="val()">
         <p class="text-center">
           {{'vallores.section' | translate }}
         </p>
+         <p class="d-none" id="valoresM"></p>
       </div>
       <div class="col-md-2 col-xs-6 op">
         <img src="../../assets/equipo-Yellow/bienvenido-esteban-victor-peq.webp" 

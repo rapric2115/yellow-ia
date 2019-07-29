@@ -9,7 +9,9 @@ import { TranslateService } from '@ngx-translate/core';
 export class MvvComponent implements OnInit {
 
   constructor(private translate: TranslateService) { 
-    translate.setDefaultLang('es');
+    
+    let userLang = navigator.language;   
+    translate.setDefaultLang(userLang);
   }
 
   public innerwidth: any = window.innerWidth;
@@ -173,9 +175,90 @@ seguridad() {
   }
 }
 
+click() {
+  const cm = document.getElementById('clickme');
+  cm.classList.add('d-none');
+  cm.classList.remove('clickme');
+  cm.classList.remove('fadeIn');
+}
+
+clickme() {
+  const cm = document.getElementById('clickme');
+  cm.classList.remove('d-none');
+  cm.classList.add('clickme');
+  cm.classList.add('fadeIn');
+}
+vision() {
+  const cm = document.getElementById('visionM');
+  cm.classList.add('d-none');
+  cm.classList.remove('clickme');
+  cm.classList.remove('fadeIn');
+}
+
+visionM() {
+  const cm = document.getElementById('visionM');
+  cm.classList.remove('d-none');
+  cm.classList.add('clickme');
+  cm.classList.add('fadeIn');
+}
+
+segu() {
+  const cm = document.getElementById('seguridadM');
+  cm.classList.add('d-none');
+  cm.classList.remove('clickme');
+  cm.classList.remove('fadeIn');
+}
+
+seguridadM() {
+  const cm = document.getElementById('seguridadM');
+  cm.classList.remove('d-none');
+  cm.classList.add('clickme');
+  cm.classList.add('fadeIn');
+}
+
+moti() {
+  const cm = document.getElementById('motivacionM');
+  cm.classList.add('d-none');
+  cm.classList.remove('clickme');
+  cm.classList.remove('fadeIn');
+}
+
+motivacionM() {
+  const cm = document.getElementById('motivacionM');
+  cm.classList.remove('d-none');
+  cm.classList.add('clickme');
+  cm.classList.add('fadeIn');
+}
+
+cal() {
+  const cm = document.getElementById('calidadM');
+  cm.classList.add('d-none');
+  cm.classList.remove('clickme');
+  cm.classList.remove('fadeIn');
+}
+
+calidadM() {
+  const cm = document.getElementById('calidadM');
+  cm.classList.remove('d-none');
+  cm.classList.add('clickme');
+  cm.classList.add('fadeIn');
+}
+val() {
+  const cm = document.getElementById('valoresM');
+  cm.classList.add('d-none');
+  cm.classList.remove('clickme');
+  cm.classList.remove('fadeIn');
+}
+
+valoresM() {
+  const cm = document.getElementById('valoresM');
+  cm.classList.remove('d-none');
+  cm.classList.add('clickme');
+  cm.classList.add('fadeIn');
+}
 
   ngOnInit() {
-  
+   
   }
 
 }

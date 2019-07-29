@@ -7,14 +7,25 @@
     background-image: url(../../assets/bg/puentedela17-2.webp);
     background-position: center;
     background-size: cover;
-    height: 99vh;
+    height: 90vh;
     background-repeat: no-repeat;
 }
 header {
-    margin-bottom: 15%;
+    height: 99vh;
+}
+.y-r {
+    background-color: rgba(6,13,22, .5);
+    width: 89%;
+    height: 90px;
+    padding: .5rem;
+    position: absolute;
+    top: 85%;
+}
+.y-r p {
+    font-size: calc(.5em + 1vw);
 }
 .wrapper {
-    height: 90vh;
+    height: 99vh;
     padding-top: 50%;
     color: var(--snow);
 }
@@ -31,11 +42,11 @@ h1 {
     font-family: var(--euro);
     text-transform: uppercase;
     padding-top: 2% !important;
-    font-size: 3.5rem;
+    font-size: calc(2.5em + 1vw);
 }
 h2 {
     font-family: var(--corbel);
-    font-size: 1.5rem;
+    font-size: calc(1.2em + 1vw);
     text-transform: uppercase;
 }
 
@@ -80,6 +91,10 @@ h2 {
 }
 .servicios h3 span {
     color: var(--yellow);
+}
+#servicios {
+    padding-right: 0;
+    padding-left: 0;
 }
 
 .carousel-caption {
@@ -343,7 +358,7 @@ address {
 }
 
 .copy {
-    font-size: .4rem;
+    font-size: calc(.3em + 1vw);
     display: inline-flex;
     justify-content: space-between;
     margin-bottom: 3%;
@@ -433,6 +448,25 @@ address {
         font-size: 1.8rem;
         letter-spacing: .5rem;
         padding-left: 2%;
+    }
+
+    .y-r {
+        background-color: rgba(6,13,22, .5);
+        width: 30%;
+        height: 90px;
+        padding: .5rem;
+        position: absolute;
+        top: 70%;
+    }
+    .y-r p {
+        font-size: calc(.01em + 1vw);
+    }
+    .copy {
+        font-size: calc(.1em + .7vw) !important;
+    }
+
+    .img-copy {
+        max-width: 50% !important;
     }
 
     .serv-img {

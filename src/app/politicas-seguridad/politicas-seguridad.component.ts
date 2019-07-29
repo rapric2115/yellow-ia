@@ -9,7 +9,9 @@ import { TranslateService } from '@ngx-translate/core';
 export class PoliticasSeguridadComponent implements OnInit {
 
   constructor(private translate: TranslateService) { 
-    translate.setDefaultLang('es');
+    
+    let userLang = navigator.language;   
+    translate.setDefaultLang(userLang);
   }
 
   switchLanguage(language:string) {

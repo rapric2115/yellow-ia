@@ -10,7 +10,9 @@ export class YellowMmvComponent implements OnInit {
 
   constructor( private translate: TranslateService) {
     
-    translate.setDefaultLang('es'); 
+    let userLang = navigator.language;   
+    translate.setDefaultLang(userLang);
+    
   }
 
   ngOnInit() {

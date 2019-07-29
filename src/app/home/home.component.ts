@@ -60,17 +60,30 @@ export class HomeComponent implements OnInit {
   OpDate: any;
   map: any;
   aMonths: any
+  userLang: string;
 
 
 
   constructor( private translate: TranslateService) {
-    
-    translate.setDefaultLang('es');
+ 
+    let userLang = navigator.language;   
+    translate.setDefaultLang(userLang);
+        
     
     setInterval(() => {
       this.run(), 1000
     })
 
+    if (this.innerWidth < 768) {
+      const open = document.getElementById('proy');
+      open.classList.remove('show');
+
+      const o = document.getElementById('proyectos');
+      o.setAttribute('aria-expanded', 'false');
+      o.classList.add('collapsed');
+    }
+
+  
   }
 
   switchLanguage(language:string) {

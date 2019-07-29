@@ -27,7 +27,11 @@ main {
 }
 
 .col-md-2 img:hover {
-    filter: grayscale(50%);
+    filter: grayscale(0%);
+    opacity: 1;
+}
+.op:hover {
+    opacity: 1;
 }
 .noVisible {
     display: none;
@@ -235,6 +239,32 @@ main {
 .flex .right {
     text-align: right;
 }
+
+/* clickme animation */
+.clickme {
+    width: 90%;
+    font-size: .75rem !important;
+    position: absolute !important;
+    top: 50% !important;
+    text-align: center !important;
+    border: 1px solid snow;
+    height: 90%;
+}
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .fadeIn {
+    animation-name: fadeIn;
+    animation-duration: .5s;
+  }
 
 @media (max-width: 575.98px) {
     .col-md-2 {
